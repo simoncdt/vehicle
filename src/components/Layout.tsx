@@ -14,9 +14,8 @@ export const Layout = ({ children }: LayoutProps) => {
   const navigation = [
     { name: 'Accueil', path: '/' },
     { name: 'Véhicules', path: '/vehicles' },
-    { name: 'À propos', path: '/about' },
     { name: 'Contact', path: '/contact' },
-    { name: 'Blog', path: '/blog' },
+    
   ];
 
   return (
